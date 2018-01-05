@@ -1,4 +1,4 @@
-@media screen and (min-width:1000px) and (max-width:1400px)
+@media screen and (min-width:1024px) and (max-width:1400px)
 {
 #menu ul li a{
   font-size:18px;
@@ -7,7 +7,7 @@
 
 /*tekst w ramce*/
 .space{
-  padding-top:15%;
+  padding-top:10%;
 }
 
 
@@ -44,12 +44,12 @@
 /*przyciski*/
 
 .boxes{
-	margin-top:10%;
+	margin-top:8%;
 }
 
 .boxShow{
 	font-size:17px;
-	margin:5vh 3% 0 3%;
+	margin:3vh 3% 0 3%;
 	width:20%;
 	height:7vh;
 }
@@ -57,7 +57,7 @@
 /*O mnie*/
 
 .aboutMe{
-  height:43vh;
+  height:50vh;
 }
 
 .aboutMe hr{
@@ -83,7 +83,7 @@
 /*Umiejetnosci*/
 
 .skills{
-	height:30vh;
+	height:40vh;
 }
 
 .skills h2{
@@ -147,8 +147,8 @@
 
 .formRow2{
 	margin-left:20%;
-	margin-top:5%;
-  height:30vh;
+	margin-top:10%;
+  height:35vh;
   width:70%;
 }
 
