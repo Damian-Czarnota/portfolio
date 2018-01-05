@@ -1,0 +1,200 @@
+@media screen and (min-width:700px) and (max-width: 1024px)
+{
+#menu ul li a{
+  font-size:18px;
+}
+
+
+/*tekst w ramce*/
+#sector{
+  height:75vh;
+}
+
+.space{
+  padding-top:20%;
+}
+
+
+#container div {
+  width:60%;
+}
+
+.title {
+	width: 14em;
+	margin-right: 50px;
+}
+
+.title,
+.blink {
+	font-size: 26px;
+}
+
+.intro{
+  height:25em;
+  border:10px solid rgba(255,255,255,0.5);
+}
+
+.intro h1{
+	letter-spacing: 10px;
+    padding: 20px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.intro h2{
+	font-size:30px;
+}
+
+/*przyciski*/
+
+.boxes{
+	margin-top:7%;
+}
+
+.boxShow{
+	font-size:17px;
+	margin:5vh 3% 0 3%;
+	width:20%;
+	height:7vh;
+}
+
+/*O mnie*/
+
+.aboutMe{
+  height:35vh;
+}
+
+.aboutMe hr{
+  margin-left:20px;
+}
+.aboutMe h2,p{
+	padding-top:1%;
+  margin-left:14px;
+}
+
+.aboutMe h2,
+.skills h2,{
+	font-size:30px;
+}
+.aboutMe p{
+  font-size:17px;
+}
+
+.skills{
+	height:20vh;
+}
+
+.skills h2{
+  margin-right:14px;
+}
+
+.startSkills li {
+	font-size:20px;
+}
+
+.row .col:nth-child(3)
+{
+	margin-right:20px;
+}
+
+.project{
+	height:10vh;
+}
+
+.projectInfo {
+    height: 10vh;
+    width: 20%;
+}
+
+.projectIcons {
+	margin-top:5%;
+	height:4vh;
+}
+
+
+.projectIcon{
+	height:3vh;
+	width:30%;
+}
+
+
+.projectIcon a{
+	text-decoration:none;
+}
+.projectText {
+	font-size:12px;
+	margin-top:35%;
+}
+
+.projectText p{
+	margin-right:1%;
+}
+/*Formularz*/
+
+.contactMe{
+	margin:10%;
+	width:80%;
+	padding:5%;
+}
+
+.contactMe h2{
+	font-size:22px;
+}
+
+.contactMe p {
+	font-size:16px;
+}
+.formRow{
+  height:10vh;
+  width:100%;
+}
+
+
+.formRow2{
+	margin-left:20%;
+	margin-top:5%;
+	margin-bottom:5%;
+  height:22vh;
+  width:80%;
+}
+
+
+.form{
+	width:85%;
+  margin-left:5%;
+}
+
+.form input{
+  margin: 4% 0px 1% 1%;
+  padding-left:1%;
+  font-size:15px;
+}
+
+.form input[type=text],
+.form input[type=tel]{
+  width:100%;
+  padding:0% 0% 1% 1%;
+}
+
+.form textarea[type=wiadomosc]{
+	height:10vh;
+	margin-top:5%;
+	margin-left:2%;
+	width:100%;
+	padding:0% 0% 1% 1%;
+}
+
+.butn{
+	margin-top:3%;
+	margin-left:30%;
+	width:40%;
+	font-size:15px;
+}
+
+/*stopka*/
+#foot{
+  height:11em;
+}
+	
+	
+}
