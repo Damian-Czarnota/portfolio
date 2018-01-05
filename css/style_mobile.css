@@ -3,11 +3,7 @@
 }
 
 #menu ul li a{
-  font-size:40px;
-}
-
-#menu ul li:nth-child(3){
-  margin-right:20px;
+  font-size:55px;
 }
 
 /*tekst w ramce*/
@@ -17,7 +13,7 @@
 }
 
 .space{
-  padding-top:40%;
+  padding-top:25%;
 }
 
 
@@ -27,12 +23,12 @@
 }
 
 .title {
+	font-weight:solid;
 	width: 13em;
 }
 
 .title,
 .blink {
-	font-weight:500;
 	font-size: 55px;
 	padding-bottom:20px;
 }
@@ -73,7 +69,7 @@
 /*O mnie*/
 
 .aboutMe{
-  height:135vh;
+  height:100%;
 }
 
 .aboutMe hr{
@@ -99,11 +95,11 @@
 }
 
 .mobileCenter{
-	height:105vh;
+	height:100%;
 }
 
 .mobileSkills{
-	height:50vh;
+	height:100%;
 }
 
 .skills h2{
@@ -136,102 +132,69 @@
 	width:auto;
 }
 
+.mobileProject{
+	height:100%;
+}
 .project{
-	width:40%;
-	margin:25px;
+	width:100%;
+	height:30vh;
+	margin-bottom:30px;
 }
 
 .projectInfo {
-    height: 10vh;
-    width: 20%;
+    height: 30vh;
+    width: 100%;
 }
 
 .projectIcons {
-	margin-top:5%;
-	height:4vh;
+	margin-top:10%;
+	height:15vh;
 }
 
 
 .projectIcon{
-	height:3vh;
-	width:30%;
+	height:10vh;
+	width:40%;
 }
 
 
 .projectIcon a{
+	font-size:40px;
 	text-decoration:none;
 }
 .projectText {
-	font-size:12px;
-	margin-top:35%;
+	font-size:40px;
+	margin-top:33%;
 }
 
 .projectText p{
 	margin-right:1%;
 }
 /*Formularz*/
-
-.contactMe{
-	margin:10%;
-	width:80%;
-	padding:5%;
+#contact{
+	height:70vh;
 }
 
+.contactMe{
+	width:100%;
+	margin:2% 0 0 0;
+}
+
+
 .contactMe h2{
-	font-size:22px;
+	font-size:50px;
 }
 
 .contactMe p {
-	font-size:16px;
-}
-.formRow{
-  height:10vh;
-  width:100%;
+	font-size:45px;
 }
 
 
 .formRow2{
-	margin-left:20%;
-	margin-top:5%;
-	margin-bottom:5%;
-  height:22vh;
-  width:80%;
-}
-
-
-.form{
-	width:85%;
-  margin-left:5%;
-}
-
-.form input{
-  margin: 4% 0px 1% 1%;
-  padding-left:1%;
-  font-size:15px;
-}
-
-.form input[type=text],
-.form input[type=tel]{
-  width:100%;
-  padding:0% 0% 1% 1%;
-}
-
-.form textarea[type=wiadomosc]{
-	height:10vh;
-	margin-top:5%;
-	margin-left:2%;
-	width:100%;
-	padding:0% 0% 1% 1%;
-}
-
-.butn{
-	margin-top:3%;
-	margin-left:30%;
-	width:40%;
-	font-size:15px;
+display:none;
 }
 
 /*stopka*/
 #foot{
-  height:11em;
+  display:none;
 }
