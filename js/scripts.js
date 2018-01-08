@@ -27,3 +27,10 @@ function showText() {
         text.removeClass('showText');
     }
 };
+
+
+$(document).ready(function() {
+    var w = screen.width;
+        if(w<699)
+             $("#myModal").modal("show");
+});
