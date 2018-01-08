@@ -133,7 +133,7 @@
 }
 
 .projectIcons {
-	margin-top:20%;
+	margin-top:17%;
 	height:5vh;
 	display:flex;
 	flex-direction:row;
@@ -173,7 +173,7 @@
 }
 .projectText {
 	font-size:12px;
-	margin-top:50%;
+	margin-top:30%;
 	width:100%;
 }
 
